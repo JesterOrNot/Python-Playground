@@ -1,0 +1,7 @@
+image: gitpod/workspace-full
+
+tasks:
+  - init: >
+      make deps &&
+      make build &&
+      make clean
